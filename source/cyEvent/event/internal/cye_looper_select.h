@@ -21,6 +21,8 @@ protected:
 	virtual void _update_channel_add_event(channel_s& channel, event_t event);
 	virtual void _update_channel_remove_event(channel_s& channel, event_t event);
 
+	virtual void debug(std::string& debug_string);
+
 private:
 	fd_set	m_master_read_fd_set;
 	fd_set	m_master_write_fd_set;

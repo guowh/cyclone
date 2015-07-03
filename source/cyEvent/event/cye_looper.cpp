@@ -400,5 +400,28 @@ bool Looper::_on_inner_pipe_touched(event_id_t , socket_t fd, event_t , void* pa
 	return false;
 }
 
+//-------------------------------------------------------------------------------------
+void Looper::debug(std::string& debug_string)
+{
+	assert(thread_api::thread_get_current_id() == m_current_thread);
+
+	char temp[1024] = { 0 };
+	int32_t active_counts = 0;
+
+	snprintf(temp, 1024, "\n=====Looper_%p====\n", this);	debug_string += temp;
+	debug_string += "m_channelBuffer: \n";
+	for (size_t i = 0; i < m_channelBuffer.size(); i++) {
+		const channel_s& c = m_channelBuffer[i];
+		if (c.active) active_counts++;
+		snprintf(temp, 1024, "\t%d: id=%d,fd=%d,event=%d,active=%d,next=%d,prev=%d\n", 
+			(int32_t)i, (int32_t)c.id, (int32_t)c.fd, (int32_t)c.event, 
+			(int32_t)c.active, (int32_t)c.next, (int32_t)c.prev);
+
+		debug_string += temp;
+	}
+	snprintf(temp, 1024, "free_head=%d, active_counts=%d\n", m_free_head, active_counts);
+	debug_string += temp;
+}
+
 }
 

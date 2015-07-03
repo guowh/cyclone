@@ -229,5 +229,17 @@ void Looper_select::_update_channel_remove_event(channel_s& channel, event_t eve
 	}
 }
 
+//-------------------------------------------------------------------------------------
+void Looper_select::debug(std::string& debug_string)
+{
+	Looper::debug(debug_string);
+
+	char temp[1024] = { 0 };
+
+	snprintf(temp, 1024, "*SELECT* active_head=%d\n", m_active_head);
+	debug_string += temp;
+
+}
+
 }
 

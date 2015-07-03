@@ -8,6 +8,8 @@ Copyright(C) thecodeway.com
 #include <cy_core.h>
 #include <event/cye_pipe.h>
 
+#include <string>
+
 namespace cyclone
 {
 
@@ -65,6 +67,8 @@ public:
 	void disable_all(event_id_t id);
 
 	pid_t get_thread_id(void) const { return m_current_thread; }
+
+	virtual void debug(std::string& debug_string);
 
 protected:
 	Looper();
