@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\02Code\cyclone\winprj\CMakeFiles\cc6fe17dcdb1ba19477c6be70cfa7854\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4F171B0A-B69D-3788-A125-2CAB3D670D61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

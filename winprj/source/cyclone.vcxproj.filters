@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\02Code\cyclone\source\cyCore\core\cyc_logger.cpp">
+      <Filter>cyCore</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\02Code\cyclone\source\cyCore\core\cyc_socket_api.cpp">
+      <Filter>cyCore</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\02Code\cyclone\source\cyCore\core\cyc_system_api.cpp">
+      <Filter>cyCore</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\02Code\cyclone\source\cyCore\core\cyc_ring_buf.cpp">
+      <Filter>cyCore</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\02Code\cyclone\source\cyEvent\event\cye_looper.cpp">
+      <Filter>cyEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\02Code\cyclone\source\cyEvent\event\cye_pipe.cpp">
+      <Filter>cyEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\02Code\cyclone\source\cyEvent\event\cye_work_thread.cpp">
+      <Filter>cyEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\02Code\cyclone\source\cyEvent\event\cye_packet.cpp">
+      <Filter>cyEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\02Code\cyclone\source\cyEvent\event\internal\cye_looper_select.cpp">
+      <Filter>cyEvent\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\02Code\cyclone\source\cyEvent\event\internal\cye_create_looper.cpp">
+      <Filter>cyEvent\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\02Code\cyclone\source\cyNetwork\network\cyn_address.cpp">
+      <Filter>cyNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\02Code\cyclone\source\cyNetwork\network\cyn_tcp_server.cpp">
+      <Filter>cyNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\02Code\cyclone\source\cyNetwork\network\cyn_connection.cpp">
+      <Filter>cyNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\02Code\cyclone\source\cyNetwork\network\cyn_server_work_thread.cpp">
+      <Filter>cyNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\02Code\cyclone\source\cyNetwork\network\cyn_tcp_client.cpp">
+      <Filter>cyNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\02Code\cyclone\source\cyCrypt\crypt\cyr_adler32.cpp">
+      <Filter>cyCrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\02Code\cyclone\source\cyCrypt\crypt\cyr_dhexchange.cpp">
+      <Filter>cyCrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\02Code\cyclone\source\cyCrypt\crypt\cyr_xorshift128.cpp">
+      <Filter>cyCrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\02Code\cyclone\source\cyCrypt\crypt\cyr_rijndael.cpp">
+      <Filter>cyCrypt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\02Code\cyclone\source\cyCore\cy_core.h">
+      <Filter>cyCore</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyCore\core\cyc_logger.h">
+      <Filter>cyCore</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyCore\core\cyc_socket_api.h">
+      <Filter>cyCore</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyCore\core\cyc_system_api.h">
+      <Filter>cyCore</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyCore\core\cyc_ring_buf.h">
+      <Filter>cyCore</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyCore\core\cyc_atomic.h">
+      <Filter>cyCore</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyCore\core\cyc_lf_queue.h">
+      <Filter>cyCore</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyCore\core\cyc_debug_interface.h">
+      <Filter>cyCore</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyEvent\cy_event.h">
+      <Filter>cyEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyEvent\event\cye_looper.h">
+      <Filter>cyEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyEvent\event\cye_pipe.h">
+      <Filter>cyEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyEvent\event\cye_work_thread.h">
+      <Filter>cyEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyEvent\event\cye_packet.h">
+      <Filter>cyEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyEvent\event\internal\cye_looper_select.h">
+      <Filter>cyEvent\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyNetwork\cy_network.h">
+      <Filter>cyNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyNetwork\network\cyn_address.h">
+      <Filter>cyNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyNetwork\network\cyn_tcp_server.h">
+      <Filter>cyNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyNetwork\network\cyn_connection.h">
+      <Filter>cyNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyNetwork\network\cyn_server_work_thread.h">
+      <Filter>cyNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyNetwork\network\cyn_tcp_client.h">
+      <Filter>cyNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyCrypt\cy_crypt.h">
+      <Filter>cyCrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyCrypt\crypt\cyr_adler32.h">
+      <Filter>cyCrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyCrypt\crypt\cyr_dhexchange.h">
+      <Filter>cyCrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyCrypt\crypt\cyr_xorshift128.h">
+      <Filter>cyCrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\02Code\cyclone\source\cyCrypt\crypt\cyr_rijndael.h">
+      <Filter>cyCrypt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\02Code\cyclone\source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cyCore">
+      <UniqueIdentifier>{5DD7214D-74B5-36C7-ABB8-E6D14BB1DE78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cyCrypt">
+      <UniqueIdentifier>{B8B0A568-B55A-3A80-8E6C-5B9640E527FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cyEvent">
+      <UniqueIdentifier>{A1C02C71-F93F-34B3-B461-7BF272668FED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cyEvent\internal">
+      <UniqueIdentifier>{5B33F6FD-6D20-3D01-924D-D0DF633716E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cyNetwork">
+      <UniqueIdentifier>{669F2FC2-C41E-3E60-BE91-560B125512C6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
